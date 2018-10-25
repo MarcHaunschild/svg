@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sprite inside of html</title>
+  <style>
+    .icon {
+      display: inline-block;
+      width: 10em;
+      background: tan;
+      fill: currentColor;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Using the Icons-->
+  <svg viewBox="0 0 448 512" class="icon">
+    <use xlink:href="sprite.svg#address-book"></use>
+  </svg>
+  <svg viewBox="0 0 448 512" class="icon">
+    <use xlink:href="sprite.svg#address-book"></use>
+  </svg>
+  <hr>
+  <svg viewBox="0 0 448 512" class="icon">
+    <use xlink:href="sprite.svg#calendar-alt-title"></use>
+  </svg>
+  <p>Icons by <a href="https://fontawesome.com">fontawesome 5 free</a></p>
+</body>
+</html>
